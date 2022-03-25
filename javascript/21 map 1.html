@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Arrays 10 Map()</title>
+</head>
+<body>
+	<script>
+		var m=new Map([['Uno',1],['Dos',11],['Tres',111]]);
+		
+		m.forEach(function(e,i){
+			document.write(e+','+i);
+			document.write('<br>');
+		});
+		document.write(m.get('Tres'));
+		document.write('<br>');
+		document.write(m.has('Trece'));
+		document.write('<br>');
+		document.write(m.size);
+		document.write('<br>');
+		m.delete('Dos');
+		m.forEach(function(e,i){
+			document.write(e+','+i);
+			document.write('<br>');
+		});
+		m.clear();
+		document.write(m.size);
+		m.forEach(function(e,i){
+			document.write(e+','+i);
+			document.write('<br>');
+		});
+
+	</script>
+	
+</body>
+</html>

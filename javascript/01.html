@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Javascript 02 Datos numéricos</title>
+</head>
+<body>
+	<script>
+		a=Number.MAX_VALUE;
+		document.write(a);
+		document.write("<br>");
+		b=Number.MIN_VALUE;
+		document.write(b);
+		document.write("<br>");
+		c=Number.EPSILON;
+		document.write("El valor de epsilon es "+c);
+		d=Number.NaN;
+		document.write("<br>");
+		document.write(d);
+		document.write("<br>");
+		e=Number.POSITIVE_INFINITY;
+		document.write(e);
+		document.write("<br>");
+		f='45€';
+		document.write(f);
+		g=parseInt(f);
+		document.write("<br>");
+		document.write(g);
+		document.write("<br>");
+		document.write(typeof(g));
+		document.write("<br>");
+		document.write(typeof(f));
+		h='a45';
+		h=parseInt(h);
+		document.write("<br>");
+		document.write(typeof(h));
+		document.write("<br>");
+		document.write(h);
+		i=parseFloat('4.56');
+		document.write("<br>");
+		document.write(i+"<br>");
+		document.write(typeof(i));
+		j='67pepe89';
+		j=parseInt(j);
+		document.write("<br>");
+		document.write(j+"<br>");
+		k=678;
+		document.write(k.toExponential());
+	</script>
+	
+</body>
+</html>

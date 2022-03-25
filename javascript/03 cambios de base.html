@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Javascript 03 Cambios de base</title>
+</head>
+<body>
+	<h2>Paso a Binario</h2>
+	<script>
+		a=0b101010+0b111; //42+7
+		document.write(a+"<br>");
+		document.write(a.toString(2)+"<br>");
+	</script>
+	<h2>Paso a octal</h2>
+	<script>
+		a=0o43;
+		document.write(a+"<br>");
+		document.write(a.toString(8)+"<br>");
+	</script>
+	<h2>Paso a hexadecimal</h2>
+	<script>
+		a=0x4A3;
+		document.write(a+"<br>");
+		document.write(a.toString(16)+"<br>");
+	</script>
+	<h2>Paso a decimal</h2>
+	<script>
+		a='101010'; //valor hexadecimal
+		document.write(a+"<br>");
+		document.write(parseInt(a,2)+"<br>");
+	</script>
+</body>
+</html>

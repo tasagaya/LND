@@ -1,0 +1,18 @@
+
+#pagina{
+	width: 500px;
+	margin: 4em auto;
+	text-align: center;
+}
+
+#testBtn{
+	width: 200px;
+	height: 60px;
+}
+
+#resultado{
+	color:  red;
+	background: lightgrey;
+	padding: 40px;
+	margin: 4em auto;
+}

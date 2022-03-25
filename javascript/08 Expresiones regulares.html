@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>08 Expresiones regulares</title>
+</head>
+<body>
+	<script>
+		var a=prompt('Introduzca su email');
+
+		/*
+			// símbolos de expresión regular
+			^  comienzo
+			$  final
+			[]  valores permitidos
+			[A-Z] letras en mayúsculas
+			[a-z] letras en minúsculas
+			[0-9] sólo números
+			[A-Za-z]  Solo letras
+			.  está todo permitido
+			{4} número de ocurrencias 4
+			{2,4}  2 a 4 ocurrencias
+			/.  carácter de escape es la /
+
+			\d   es  lo mismo que [0-9]
+			\D   todo menos números
+
+			[^A-Z]  No permito letras en mayúsculas
+
+ 		*/
+
+ 		// DNI var chequeo=new RegExp(/^[0-9]{8}[A-Z]{1}$/);
+
+ 		
+
+		var chequeo=new RegExp(/^.+\@.+\..+$/);
+
+		if (chequeo.test(a))
+			alert('Verdadero');
+		else
+			alert('Falso');
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Condicionales y bucles</title>
+</head>
+<body>
+	<script>
+		var a=45;
+		document.write(typeof(a) +'<br>');
+		var b='45';
+		document.write(typeof(b)+'<br>');
+
+		/*
+		if(cond){
+	       si
+		}else{
+	       no se cumple
+		}
+
+		(cond ? si : no se cumple)
+
+
+		*/
+		var c=(a===b ?'si son iguales':'no son iguales');
+		document.write(c+'<br>');
+		// var a=prompt('Introducir valor de 1 a 4');
+		a=parseInt(a);
+		switch (a){
+			case 1:
+				document.write(' a es 1');
+				break;
+			case 2:
+				document.write(' a es 2');
+				break;
+			case 3:
+				document.write(' a es 3');
+				break;
+			default:
+				document.write(' a es otro valor');
+		}
+
+		for (var i = 0; i <= 10; i++) {
+			document.write(i+'<br>');
+		}
+		
+		
+
+	</script>
+	
+</body>
+</html>

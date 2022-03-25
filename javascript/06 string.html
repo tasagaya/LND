@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Javascript 06 string de caracteres</title>
+</head>
+<body>
+	<script>
+		a="Hola";
+		b=a.length;
+		document.write('en '+ a + ' hay '+ b+' caracteres');
+		document.write('<br>');
+		document.write('qué letra está en la posición 0 es '+ a.charAt(0));
+		document.write('<br>');
+		document.write('El valor ASCII de o es '+ a.charCodeAt(1));
+		document.write('<br>');
+		document.write('la letra que está en la tabla ASCII es '+ String.fromCharCode(72));
+		b='                    alumnos de 1º DAM A                     ';
+		document.write('<br>');
+		document.write(b);
+		document.write('<br>');
+		document.write(b.search('í'));
+		document.write('<br>');
+		document.write(b.repeat(5));
+		document.write('<br>');
+		document.write(b.replace('A','B'));
+		document.write('<br>');
+		document.write(b.substr(1,7));
+		document.write('<br>');
+		document.write(b.substring(4,12));
+		document.write('<br>');
+		document.write(b.length);
+		c=b.trim();
+		document.write('<br>');
+		document.write(c.length);
+		document.write('<br>');
+		e='42';
+		document.write(e.padEnd(3,'€'));
+
+	</script>
+</body>
+</html>

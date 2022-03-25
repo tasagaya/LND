@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>09 Fechas 1</title>
+</head>
+<body>
+	<script>
+		var fecha=new Date();
+		document.write(fecha);
+		document.write("<br>");
+		document.write(Date.now());
+		document.write("<br>");
+		document.write(fecha.getTime());
+		document.write("<br>");
+		document.write('Hoy es día '+fecha.getDate());
+		document.write("<br>");
+		document.write(fecha.getDay());
+		document.write("<br>");
+		document.write('Estamos en el mes '+fecha.getMonth());
+		document.write("<br>");
+		document.write('El año es '+fecha.getFullYear());
+		document.write("<br>");
+		document.write('Son las '+fecha.getHours());
+		document.write("<br>");
+		document.write('y '+fecha.getMinutes()+' minutos');
+		document.write("<br>");
+		document.write('segundos '+fecha.getSeconds());
+		document.write("<br>");
+		document.write('milisegundos '+fecha.getMilliseconds());
+		document.write("<br>");
+		document.write('Son las '+String(fecha.getHours()).padStart(2,0)+ ':'+fecha.getMinutes()+':'+fecha.getSeconds());
+		document.write("<br>");
+		document.write("<br>");
+		document.write(fecha);
+		document.write("<br>");
+		fecha.setDate(31);
+		document.write("<br>");
+		document.write(fecha.getDate());
+		fecha.setMonth(11);
+		document.write("<br>");
+		document.write(fecha.getMonth());
+		document.write("<br>");
+		fecha.setFullYear(2030);
+		document.write(fecha.getFullYear());
+		document.write("<br>");
+		document.write(fecha.getFullYear());
+		document.write("<br>");
+		document.write(fecha);
+		document.write("<br>");
+		document.write("<br>");
+		document.write(fecha.toISOString());
+		document.write("<br>");
+		document.write(fecha.toUTCString());
+		document.write("<br>");
+		document.write(fecha.toDateString());
+		document.write("<br>");
+		document.write(fecha.toTimeString());
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Arrays 2 push pop</title>
+</head>
+<body>
+	<script>
+		var a=[5,4,3,2,1];
+		for (var i = 0; i < a.length; i++) {
+			document.write(a[i]);
+		}
+		// Pop quito por el final y Push pongo al final
+		document.write('<br>');
+		a.pop();
+		b=a;
+		for (var i = 0; i < b.length; i++) {
+			document.write(b[i]);
+		}
+		document.write('<br>');
+		a.push(100);
+		b=a;
+		for (var i = 0; i < b.length; i++) {
+			document.write(b[i]+',');
+		}
+		// shift quito por el principio y unshift pongo al principio
+		document.write('<br>');
+		a.shift();
+		b=a;
+		for (var i = 0; i < b.length; i++) {
+			document.write(b[i]);
+		}
+		document.write('<br>');
+		a.unshift('primero');
+		b=a;
+		for (var i = 0; i < b.length; i++) {
+			document.write(b[i]+',');
+		}
+	</script>
+	
+</body>
+</html>

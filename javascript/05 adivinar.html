@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Javascript 05 Adivinar un valor</title>
+</head>
+<body>
+	<form action="">
+		<label for="">Valores entre 0 y 3, introducir valor: </label>
+		<input type="text">
+		<br>
+	</form>
+	<button onclick="generar();">Probar</button>
+	<script>
+		function generar(){
+			a=Math.random()*3;
+			a=Math.round(a);
+			alert('Tu valor es '+a);
+		}
+		
+	</script>
+</body>
+</html>

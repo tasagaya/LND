@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>11 Fechas 3 Moment.js</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/es.min.js"></script>
+</head>
+<body>
+	<script>
+		document.write(moment().format('DD/MM/YY'));
+		document.write('<br>');
+		document.write(moment().format('DD/MMMM/YYYY'));
+		document.write('<br>');
+		document.write(moment().format('dddd DD/MMMM/YYYY'));
+		document.write('<br>');
+		document.write(moment().format('dddd DD/MMMM/YYYY HH:mm:ss'));
+		document.write('<br>');
+		document.write(moment().format('[Hoy es ]dddd DD [de ]MMMM [de ]YYYY [y son las ]HH:mm:ss'));
+		document.write('<br>');
+
+		document.write(moment('2002/07/20').fromNow());
+		document.write('<br>');
+		document.write(moment('2022/03/01').fromNow());
+		document.write('<br>');
+		document.write(moment().startOf('month').fromNow());
+		document.write('<br>');
+		document.write(moment().startOf('month').calendar());
+		document.write('<br>');
+		document.write(moment().endOf('month').fromNow());
+		document.write('<br>');
+	</script>
+	
+</body>
+</html>
