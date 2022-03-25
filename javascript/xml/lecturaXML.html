@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lector XML</title>
+	<script type="text/javascript">
+		function cargarXML(){
+			var xmlhttp=new XMLHttpRequest();
+			xmlhttp.onreadystatechange=function(){
+				if(this.readyState == 4 && this.status == 200){
+					mostrar(this);
+				}
+			}
+
+		xmlhttp.open("GET", "cd.xml", true);
+		xmlhttp.send();
+		};
+
+		function mostrar(xml){
+			var x, y, i, xmlDoc, txt;
+			xmlDoc = xml.responseXML;
+			txt="";
+			x = xmlDoc.getElementByTagName("ARTIST");
+			y = xmlDoc.getElementByTagName("YEAR");
+			for (i=0; i<x.length;i++) {
+				txt += x[i].childNodes[0].nodeValue + " | "+y[i].childNodes[0].nodeValue+"<br>";
+			}
+			document.getElementById("lista").innerHTML=txt;
+		}
+
+	</script>
+</head>
+<body>
+	<button type="button" onclick="cargarXML();">Leer colección</button>
+	<div id="lista">
+		
+	</div>
+
+</body>
+</html>
