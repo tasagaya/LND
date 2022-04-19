@@ -12,9 +12,11 @@ function inicio(){
 	x.click(ocultar2);
 }
 function ocultar1() {   
-	var x=$("#parrafo1");   
-	x.hide("slow"); 
-	var x=$("#parrafo2");
+	var x;
+	x=$("#parrafo1");   
+	x.hide("fast"); 
+	var x;
+	x=$("#parrafo2");
 	x.show("slow");
 } 
 
