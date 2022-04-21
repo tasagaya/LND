@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vehiculos>
+	<vehiculo>
+		<marca>Seat</marca>
+		<modelo>Ibiza</modelo>
+		<motor>1.1</motor>
+		<matricula>1234ktg</matricula>
+		<kilometros>76000</kilometros>
+		<precio_original>3500</precio_original>
+		<precio_oferta>3000</precio_oferta>
+		<extras>AA - 5 puertas</extras>
+		<fotos>
+			<foto1></foto1>
+			<foto2></foto2>
+		</fotos>
+	</vehiculo>
+	<vehiculo>
+		<marca>Jeep</marca>
+		<modelo>Compass</modelo>
+		<motor>1.6</motor>
+		<matricula>1997 KTG</matricula>
+		<kilometros>52000</kilometros>
+		<precio_original>18000</precio_original>
+		<precio_oferta>15000</precio_oferta>
+		<extras></extras>
+		<fotos>
+			<foto1></foto1>
+			<foto2></foto2>
+		</fotos>
+	</vehiculo>
+	<vehiculo>
+		<marca>Opel</marca>
+		<modelo>Mokka</modelo>
+		<motor>1.6 diésel</motor>
+		<matricula>2593 JGC</matricula>
+		<kilometros>125000</kilometros>
+		<precio_original>12000</precio_original>
+		<precio_oferta>10000</precio_oferta>
+		<extras>full extras</extras>
+		<fotos>
+			<foto1></foto1>
+			<foto2></foto2>
+		</fotos>
+	</vehiculo>
+</vehiculos>
