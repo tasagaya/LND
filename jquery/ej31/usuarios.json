@@ -1,0 +1,8 @@
+{
+    "usuarios": [
+    {"nombre" : "Juan Torres Contreras", "correo" : "juan@elcorreo.com", "nacimiento" : "17/03/1991"},
+    {"nombre" : "Esther Mendez Villegas", "correo" : "esther@elcorreo.com", "nacimiento" : "02/06/1994"},
+    {"nombre" : "Minerva Ruiz Quezada", "correo" : "minerva@elcorreo.com", "nacimiento" : "12/01/1992"},
+    {"nombre" : "Rodolfo Callejas Pineda", "correo" : "rodolfo@elcorreo.com", "nacimiento" : "11/11/1990"}
+    ]
+  }
