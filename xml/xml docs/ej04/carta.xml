@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ejercicio 4 - Carta de desayunos -->
+<carta>
+	<desayuno>
+		<nombre>Gofres Belgas</nombre>
+		<precio>5.95</precio>
+		<descricpcion>Dos de nuestros famosos gofres belgas con abundante sirope</descricpcion>
+		<calorias>650</calorias>
+	</desayuno>
+	<desayuno>
+		<nombre>Gofres Belgas con fresas</nombre>
+		<precio>7.95</precio>
+		<descricpcion>Ligeros gofres belgas cubiertos de fresas y nata montada</descricpcion>
+		<calorias>900</calorias>
+	</desayuno>
+	<desayuno>
+		<nombre>Gofres Belgas con frutas del bosque</nombre>
+		<precio>8.95</precio>
+		<descricpcion>Ligeros gofres belgas cubiertos de frutos del bosque y nata montada</descricpcion>
+		<calorias>900</calorias>
+	</desayuno>
+	<desayuno>
+		<nombre>Tostada francesa</nombre>
+		<precio>4.50</precio>
+		<descricpcion>Dos gruesas rebanadas de nuestro pan francés casero</descricpcion>
+		<calorias>600</calorias>
+	</desayuno>
+	<desayuno>
+		<nombre>Desayuno de la casa</nombre>
+		<precio>6.95</precio>
+		<descricpcion>Dos huevos, bacon o salchicha, tostada y papas fritas</descricpcion>
+		<calorias>950</calorias>
+	</desayuno>
+</carta>

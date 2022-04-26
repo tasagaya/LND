@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ejercicio 2 - Libros
+Crear un documento XML bien formado con información de libros encontrados
+en varias librerías electrónicas sobre la temática 'XML'.
+Sobre cada libro necesitamos saber:
+• Su código ISBN
+• Su título
+• El nivel de profundidad en el tratamiento de la materia (básico, intermedio
+o avanzado)
+• Los autores
+• La editorial
+• La fecha de publicación
+• La página web del libro en caso de que tenga.
+• El precio
+Debemos incluir información de un mínimo de dos librerías y para cada una de ellas mínimo tres libros -->
+<librerias>	
+	<libreria nombre="Lemus">
+		<libro>
+			<isbn>1111</isbn>
+			<titulo>XML iniciación</titulo>
+			<nivel>básico</nivel>
+			<autores>
+				<autor>Pepito Grillo</autor>
+			</autores>
+			<editorial>Anaya</editorial>
+			<f_publicacion>25/abr/2022</f_publicacion>
+			<web></web>
+			<precio>6€</precio>
+		</libro>
+		<libro>
+			<isbn>2222</isbn>
+			<titulo>XML intermedio</titulo>
+			<nivel>intermedio</nivel>
+			<autores>
+				<autor>Pepito Grillo</autor>
+				<autor>Pepita Saltamontes</autor>
+			</autores>
+			<editorial>Anaya</editorial>
+			<f_publicacion>26/Abr/2022</f_publicacion>
+			<web>http://www.todoxml.es</web>
+			<precio>7€</precio>
+		</libro>
+		<libro>
+			<isbn>3333</isbn>
+			<titulo>Ejercicios de XML</titulo>
+			<nivel>Básico</nivel>
+			<autores>
+				<autor>Manuel XML</autor>
+			</autores>
+			<editorial>Santillana</editorial>
+			<f_publicacion>15/Dic/2010</f_publicacion>
+			<web></web>
+			<precio>16€</precio>
+		</libro>
+	</libreria>
+	<libreria nombre="El Águila">
+		<libro>
+			<isbn>4444</isbn>
+			<titulo>Todo XML</titulo>
+			<nivel>Avanzado</nivel>
+			<autores>
+				<autor>Pepe Juan Torres</autor>
+			</autores>
+			<editorial>Mc Graw-Hill</editorial>
+			<f_publicacion>10/Oct/2015</f_publicacion>
+			<web></web>
+			<precio>12€</precio>
+		</libro>
+		<libro>
+			<isbn>5555</isbn>
+			<titulo>Metalenguaje XML</titulo>
+			<nivel>Básico</nivel>
+			<autores>
+				<autor>Manuel Rodríguez</autor>
+			</autores>
+			<editorial>Santillana</editorial>
+			<f_publicacion>15/Nov/2008</f_publicacion>
+			<web></web>
+			<precio>7€</precio>
+		</libro>
+		<libro>
+			<isbn>6666</isbn>
+			<titulo>Aprende fácil XML</titulo>
+			<nivel>Intermedio</nivel>
+			<autores>
+				<autor>Pepe Jorge</autor>
+			</autores>
+			<editorial>Anaya</editorial>
+			<f_publicacion>12/Oct/2006</f_publicacion>
+			<web></web>
+			<precio>3€</precio>
+		</libro>
+	</libreria>
+</librerias>

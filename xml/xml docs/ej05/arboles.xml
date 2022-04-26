@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ejercicio 5 - Árboles -->
+<arboles>
+	<especie nombre="Acer monspessulanum">
+		<nombre_comun>Arce de Montpellier, Arce menor</nombre_comun>
+		<vegetacion>Caducifolio</vegetacion>
+		<altura>de 6 a 10 metros</altura>
+		<forma_y_estructura>
+			<copa>Copa esférica</copa>. 
+			<tronco_principal>recto con bifurcaciones</tronco_principal>
+			<ramaje>colgante</ramaje>
+		</forma_y_estructura>
+		<color>
+			<primavera>
+				<haz>verde brillante</haz>
+				<enves>verde blanquecino</enves>
+			</primavera>
+			<otoño>
+				<haz></haz>
+				<enves></enves>
+			</otoño>
+		</color>
+		<resistencia_heladas>Heladas fuertes (hasta -15ºC)</resistencia_heladas>
+	</especie>
+	<especie nombre="Olea europea">
+		<nombre_comun>Olivo</nombre_comun>
+		<vegetacion>Perenne</vegetacion>
+		<altura>de 8 a 15 metros</altura>
+		<forma_y_estructura>
+			<copa>irregular</copa>
+			<tronco_principal>irregular con bifurcaciones</tronco_principal>
+			<ramaje>tortuoso</ramaje>
+		</forma_y_estructura>
+		<color>
+			<primavera>
+				<haz>verde oscuro</haz>
+				<enves>verde plateado</enves>
+			</primavera>
+			<otoño>
+				<haz></haz>
+				<enves></enves>
+			</otoño>
+		</color>
+		<resistencia_heladas>Heladas medias (hasta -10ºC)</resistencia_heladas>
+	</especie>
+	<especie nombre="Platanus orientalis">
+		<nombre_comun>Plátano</nombre_comun>
+		<vegetacion>Caducifolio</vegetacion>
+		<altura>de 20 a 25 metros</altura>
+		<forma_y_estructura>
+			<copa>ovoidal</copa>
+			<tronco_principal>recto</tronco_principal>
+			<ramaje>expandido</ramaje>
+		</forma_y_estructura>
+		<color>
+			<primavera>
+				<haz>verde medio</haz>
+				<enves>verde claro</enves>
+			</primavera>
+			<otoño>
+				<haz>ocre</haz>
+				<enves></enves>
+			</otoño>
+		</color>
+		<resistencia_heladas>Heladas fuertes (hasta -20ºC)</resistencia_heladas>
+	</especie>
+	<especie nombre="Quercus ilex">
+		<nombre_comun>Encina</nombre_comun>
+		<vegetacion>perenne</vegetacion>
+		<altura>en torno a 25 metros</altura>
+		<forma_y_estructura>
+			<copa>esférica o elíptica irregular</copa>
+			<tronco_principal>recto</tronco_principal>
+			<ramaje>tortuoso</ramaje>
+		</forma_y_estructura>
+		<color>
+			<primavera>
+				<haz>plateado con hojas jóvenes. verde oscuro en hojas antiguas</haz>
+				<enves>plateado</enves>
+			</primavera>
+			<otoño>
+				<haz></haz>
+				<enves></enves>
+			</otoño>
+		</color>
+		<resistencia_heladas>Heladas fuertes (hasta -15ºC)</resistencia_heladas>
+	</especie>
+</arboles>
