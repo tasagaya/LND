@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!ELEMENT agenda (entrada)>
+		<!ELEMENT entrada (nombre,apellidos,direccion,(telefono)+)>
+			<!ELEMENT nombre (#PCDATA)>
+			<!ELEMENT apellidos (#PCDATA)>
+			<!ELEMENT direccion (#PCDATA)>
+			<!ELEMENT telefono (#PCDATA)>

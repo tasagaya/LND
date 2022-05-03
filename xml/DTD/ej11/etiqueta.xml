@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etiqueta [
+    <!ELEMENT etiqueta (nombre,calle,ciudad,pais,codigo)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT calle (#PCDATA)>
+        <!ELEMENT ciudad (#PCDATA)>
+        <!ELEMENT pais (#PCDATA)>
+        <!ELEMENT codigo (#PCDATA)>
+]>
+<etiqueta>
+  <nombre>Roberto García</nombre>
+  <calle>C/ Mayor, 27</calle>
+  <ciudad>San Cristóbal de La Laguna</ciudad>
+  <pais>España</pais>
+  <codigo>38000</codigo>
+</etiqueta>

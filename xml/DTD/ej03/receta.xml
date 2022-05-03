@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE receta [
+  <!ELEMENT receta (parrafo,titulo,ingredientes+,procedimiento)>
+    <!ELEMENT parrafo (#PCDATA)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT ingredientes (#PCDATA)>
+    <!ELEMENT procedimiento (#PCDATA)>
+]>
+<receta>
+  <parrafo>Esto es un párrafo</parrafo>
+  <titulo>Espaguetis con queso</titulo>
+  <ingredientes>Espaguetis</ingredientes>
+  <ingredientes>queso</ingredientes>
+  <procedimiento>Se trata de un plato del gusto de David Alejandro que le encanta</procedimiento>
+</receta>

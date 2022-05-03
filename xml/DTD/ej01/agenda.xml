@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE agenda SYSTEM "agenda.dtd">
+<agenda>
+	<entrada>
+		<nombre>Pepito</nombre>
+		<apellidos>Grillo</apellidos>
+		<direccion>C/ Mencey Bencomo, 12</direccion>
+		<telefono>922636363</telefono>
+		<telefono>600787878</telefono>
+	</entrada>
+	<entrada>
+		<nombre>Elena</nombre>
+		<apellidos>González</apellidos>
+		<direccion>C/ El Paso, 120</direccion>
+		<telefono>922666666</telefono>		
+	</entrada>
+</agenda>

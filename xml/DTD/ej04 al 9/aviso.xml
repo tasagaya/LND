@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aviso [
+    <!ELEMENT aviso (titulo?, (parrafo+, grafico)*)>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT parrafo (#PCDATA)>
+        <!ELEMENT grafico (#PCDATA)>
+]>
+<aviso>
+  <titulo>Oferta de enseñanzas</titulo>
+  <parrafo>CFGS DAM</parrafo>
+  <grafico>Desarrollo de Aplicaciones Multiplataforma</grafico>
+  <parrafo>CFGS DAW</parrafo>
+  <grafico>Desarrollo de Aplicaciones Web</grafico>
+  <parrafo>CF</parrafo>
+  <parrafo>CFGM</parrafo>
+  <grafico>Sistemas Microinformáticos y Redes</grafico>
+</aviso>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etiqueta SYSTEM "etiqueta.dtd">
+<etiqueta>
+  <nombre>Roberto García</nombre>
+  <calle>C/ Mayor, 27</calle>
+  <ciudad>San Cristóbal de La Laguna</ciudad>
+  <pais>España</pais>
+  <codigo>38000</codigo>
+</etiqueta>

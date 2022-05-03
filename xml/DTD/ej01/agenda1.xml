@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<agenda>
+	<entrada>
+		<nombre>Manuel Luís</nombre>
+		<apellidos>Torres Camacho</apellidos>
+	</entrada>
+	<entrada>
+		<nombre>Elena</nombre>
+		<apellidos>González Díaz</apellidos>
+	</entrada>
+</agenda>
