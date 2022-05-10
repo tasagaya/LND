@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lista_personas  SYSTEM "lista_personas.dtd"> 
+<lista_personas> 
+    <persona> 
+        <nombre>Antonio Moreno</nombre> 
+        <fecha_nacimiento>27-11-2008</fecha_nacimiento> 
+        <sexo>Varón</sexo> 
+    </persona>
+    <persona> 
+        <nombre>Raquel González</nombre> 
+        <fecha_nacimiento>02/02/1991</fecha_nacimiento> 
+        <sexo>Mujer</sexo> 
+    </persona> 
+</lista_personas> 

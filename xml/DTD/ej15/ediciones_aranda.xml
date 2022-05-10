@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ediciones_aranda [
+    <!ELEMENT ediciones_aranda (cabecera, tabla)>
+    <!ELEMENT cabecera (titulo, contenido, descripcion, fecha)>
+          <!ELEMENT titulo (#PCDATA)>
+          <!ELEMENT contenido (#PCDATA)>
+          <!ELEMENT descripcion (#PCDATA)>
+          <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT tabla (region+, trim, libros)>
+          <!ELEMENT region (trimestre)+>
+                <!ATTLIST region tipo (norte | centro | sur) #REQUIRED>
+                <!ELEMENT trimestre (libros_vendidos)>
+                <!ATTLIST trimestre num (1 | 2 | 3 | 4) #REQUIRED>
+                       <!ELEMENT libros_vendidos (#PCDATA)>
+          <!ELEMENT trim (#PCDATA)>
+          <!ELEMENT libros (#PCDATA)>
+]>
+<ediciones_aranda>
+  <cabecera>
+      <titulo>Ediciones Aranda</titulo>
+      <contenido>Informe regional de ventas</contenido>
+      <descripcion>Informe de ventas para las regiones Norte, Centro y Sur</descripcion>
+      <fecha>30/12/2009</fecha>
+  </cabecera>
+  <tabla>
+      <region tipo="norte">
+              <trimestre num="1">
+                      <libros_vendidos>24000</libros_vendidos>
+              </trimestre>
+              <trimestre num="2">
+                      <libros_vendidos>38600</libros_vendidos>
+              </trimestre>
+              <trimestre num="3">
+                      <libros_vendidos></libros_vendidos>
+              </trimestre>
+              <trimestre num="4">
+                      <libros_vendidos></libros_vendidos>
+              </trimestre>
+      </region>
+      <region tipo="centro">
+              <trimestre num="1">
+                      <libros_vendidos></libros_vendidos>              
+              </trimestre>
+              <trimestre num="2">
+                      <libros_vendidos>16080</libros_vendidos>              
+              </trimestre>
+              <trimestre num="3">
+                      <libros_vendidos>25000</libros_vendidos>
+              </trimestre>
+             <trimestre num="4">
+                       <libros_vendidos>29000</libros_vendidos>    
+             </trimestre>
+      </region>
+      <region tipo="sur">
+              <trimestre num="1">
+                       <libros_vendidos>27000</libros_vendidos>
+              </trimestre>
+              <trimestre num="2">
+                        <libros_vendidos>31400</libros_vendidos>       
+              </trimestre>
+              <trimestre num="3">
+                        <libros_vendidos>40100</libros_vendidos>        
+              </trimestre>
+             <trimestre num="4">
+                          <libros_vendidos>30000</libros_vendidos>
+              </trimestre>
+      </region>
+      <trim>Trimestre</trim>
+      <libros>Libros vendidos</libros>
+  </tabla>
+</ediciones_aranda>
