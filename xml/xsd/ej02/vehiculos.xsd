@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="vehiculos">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="vehiculo" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+<!-- Declaración del elemento vehiculo -->	
+	<xs:element name="vehiculo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="marca">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Seat"/>
+							<xs:enumeration value="Fiat"/>
+							<xs:enumeration value="Opel"/>
+							<xs:enumeration value="Nissan"/>
+							<xs:enumeration value="Toyota"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="nombre" type="xs:string"/>
+				<xs:element name="modelo" type="xs:string"/>
+				<xs:element ref="fabricacion"/>
+				<xs:element ref="modificaciones"/>
+			</xs:sequence>
+		</xs:complexType>	
+	</xs:element>
+
+<!-- Declaración del elemento fabricacion-->
+	<xs:element name="fabricacion">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="inicio"/>
+				<xs:element ref="fin"/>
+			</xs:sequence>
+		</xs:complexType>	
+	</xs:element>	
+
+<!-- Declaración del elemento inicio-->
+	<xs:element name="inicio">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="dia"/>
+				<xs:element ref="mes"/>
+				<xs:element ref="anyo"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+<!-- Declaración del elemento fin-->
+	<xs:element name="fin">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="dia"/>
+				<xs:element ref="mes"/>
+				<xs:element ref="anyo"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>	
+	
+	<xs:element name="dia" type="xs:integer"/>
+	<xs:element name="mes" type="xs:string"/>
+	<xs:element name="anyo" type="xs:integer"/>
+	
+<!-- Declaración del elemento modificaciones-->
+	<xs:element name="modificaciones">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="modificacion" type="xs:string" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+</xs:schema>
