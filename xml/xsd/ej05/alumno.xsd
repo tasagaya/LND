@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element ref="alumno"/>
+    <!-- Definimos el elemento alumno 	-->
+	<xs:element name="alumno">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="persona"/>
+				<xs:element ref="datos_academicos"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="persona">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="datos"/>
+				<xs:element name="comentario" type="xs:string"/>
+			</xs:sequence>
+			<xs:attribute name="nacimiento" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<!-- definimos el elemento datos -->
+	<xs:element name="datos">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="nombre" type="xs:string"/>
+				<xs:element name="apellidos" type="xs:string"/>
+				<xs:element name="dni" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<!-- Desarrollamos el elemento datos_academicos -->
+	<xs:element name="datos_academicos">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="grupo" type="xs:string"/>
+				<xs:element name="asignatura">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nombre" type="xs:string"/>
+							<xs:element name="horas" type="xs:string"/>
+							<xs:element name="profesor" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
