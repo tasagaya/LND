@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alumno xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+		xs:noNamespaceSchemaLocation="alumno.xsd">
+	<persona nacimiento="1999-10-20">
+		<datos>
+			<nombre>Pepe<nombre> 
+			<apellidos>Garcia</apellidos> 
+			<dni>25390952</dni> 
+		</datos> 
+		<comentario>buena gente...</comentario> 
+	</persona>
+	<datos_academicos>
+		<grupo>1º DAM B</grupo>
+		<asignatura>
+			<nombre>Bases de Datos</nombre>
+			<horas>6</horas>
+			<profesor>Betty</profesor>
+		</asignatura>
+	</datos_academicos>
+</alumno>
